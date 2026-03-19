@@ -1,0 +1,7 @@
+DECLARE escolha int
+OUTPUT "escolha uma comida"
+INPUT escolha
+IF (escolha=1)OUTPUT "hamburguer otima escolha"
+ELSE IF  (escolha=2)OUTPUT "pizza otima escolha"
+ELSE (escolha=3)OUTPUT "macarrao otima escolha"
+ENDIF
